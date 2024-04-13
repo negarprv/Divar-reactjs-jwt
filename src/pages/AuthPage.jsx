@@ -1,6 +1,6 @@
 import { useState } from "react";
-import CheckOtpFrom from "../components/templates/CheckOtpFrom";
-import SendOtpForm from "../components/templates/SendOTPForm";
+import CheckOtpFrom from "components/templates/CheckOtpFrom";
+import SendOtpForm from "components/templates/SendOTPForm";
 
 const AuthPage = () => {
   const [step, setStep] = useState(1);
